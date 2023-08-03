@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/93b20b1dc8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="icon" type="image/x-icon" href="../Images/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap" rel="stylesheet">
+        <title>رهبة: عندما يكون للتفاهة عنوان - نقد</title>
+    </head>
+    <body>
+        <!-- start of First Nav -->
+        <div class="nav-HEAD-properties" id="main-navbar">
+            <div class="container">
+                <nav>
+                    <div class="flex-container">
+                        <!-- right side -->
+                        <div class="flex-right">
+                            <img src="../Images/nav1.png">
+                            <div id="enter-button-style" class="overlay">
+                                <button>
+                                    <a href="#">
+                                        <i class="fa-solid fa-right-to-bracket"></i>    
+                                            دخول
+                                    </a>
+                                </button>
+                            </div>
+                            <!-- ======================Start of Menu button======================-->
+                            <button class="menu-button-style pointer overlay" id="toggleBtn">
+                                القائمة
+                                <i class="fa-solid fa-caret-down"></i>
+                            </button>
+                            <div class="icon-properties">
+                                <div class="navbar overlay" id="navbar">
+                                    <!-- Row 1 -->
+                                    <div class="row">
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-solid fa-display"></i>
+                                                ملخص القنوات
+                                            </a>
+                                        </button>
+                                        <button class="icon-rotate-45">
+                                            <a href="#">
+                                                <i class="fa-solid fa-ticket"></i>
+                                                احجز تذكرتك
+                                            </a>
+                                        </button>
+                                    </div>
+                                    <!-- Row 2 -->
+                                    <div class="row">
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-regular fa-moon"></i>
+                                                رمضان والعيد والمواسم
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-solid fa-display"></i>
+                                                دليل القنوات
+                                            </a>
+                                        </button>
+                                    </div>
+                                    <!-- Row 3 -->
+                                    <div class="row">
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                                تصنيف قوائم السينما.كوم
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-regular fa-moon"></i>
+                                                رمضان 2023
+                                            </a>
+                                        </button>
+                                    </div>
+                                    <!-- Row 4 -->
+                                    <div class="row">
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-regular fa-money-bill-1"></i>
+                                                ايرادات السينما المصرية
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-solid fa-film"></i>
+                                                سينمات
+                                            </a>
+                                        </button>
+                                    </div>
+                                    <!-- Row 5 -->
+                                    <div class="row">
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-solid fa-calendar-check"></i>
+                                                حصاد عام 2022
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-solid fa-video"></i>
+                                                فيديوهات
+                                            </a>
+                                        </button>
+                                    </div>
+                                    <!-- Row 6 -->
+                                    <div class="row">
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                                يعرض حاليا
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-solid fa-hourglass-half"></i>
+                                                يعرض قريبا
+                                            </a>
+                                        </button>
+                                    </div>
+                                    <!-- Row 7 -->
+                                    <div class="row">
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-solid fa-list"></i>
+                                                الفهرس
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-regular fa-calendar-days"></i>
+                                                أحداث فنية
+                                            </a>
+                                        </button>
+                                    </div>
+                                    <!-- Row 8 -->
+                                    <div class="row">
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-regular fa-comments"></i>
+                                                مجتمع السينما
+                                            </a>
+                                        </button>
+                                        <button>
+                                            <a href="#">
+                                                <i class="fa-solid fa-circle-question"></i>
+                                                الأسئلة الشائعة
+                                            </a>
+                                        </button>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <!-- ======================End of Menu button======================-->
+                        </div>
+                        <!-- left side -->
+                        <div class="flex-left left-icon-style">
+                                <div class="form-style">
+                                    <form class="search-settings" action="#" method="post">
+                                        <input placeholder="&#xF002 ابحث" class="text-bar" type="search">
+                                        <div class="special-select">
+                                            <i class="fa-solid fa-caret-down special-icon"></i>
+                                            <select class="custom-select"name="films" id="films-style">
+                                                <option value="1">الكل</option>
+                                                <option value="2">أعمال</option>
+                                                <option value="3">أشخاص</option>
+                                                <option value="4">سينمات</option>
+                                                <option value="5">قنوات</option>
+                                                <option value="6">أخبار</option>
+                                                <option value="7">فيديوهات</option>
+                                                <option value="8">تغطية أحداث</option>
+                                                <option value="9">مهرجانات</option>
+                                            </select>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="overlay">
+                                    <button id="search-icon">
+                                        <a href="#">
+                                            <i class="fa-solid fa-magnifying-glass" id="none"></i>
+                                        </a>
+                                    </button>
+                                </div>
+                            <div class="flex-left-icons overlay">
+                                <a href="#">
+                                    <i class="fa-solid fa-circle-question"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="nav-bottom-gap"></div>
+        <!-- end of First Nav -->
+        
+        <div class="container">
+            <!-- start of Second Nav -->
+            <nav>
+                <div class="nav-SUBHEAD-properties" id="sub-navbar">
+                    <div id="center-icons">
+                        <a href="#">
+                            <img src="../Images/Facebook.png">
+                        </a>
+                        <a href="#">
+                            <img src="../Images/twitter.png">
+                        </a>
+                    </div>
+                    <div class="vertical-line">
+                        <button id="heart-style" class="item">
+                            <a href="#">
+                                <i class="fa-solid fa-heart" id="none"></i>
+                                مفضل
+                            </a>
+                        </button>
+                    </div>
+                    <div class="overlay"id="write-style">
+                        <a href="#">
+                            <i class="fa-solid fa-plus"></i>
+                            مقال    
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!-- end of Second Nav-->
+            
+            <!--START OF HEADING -->
+            <header>
+                <!-- start of Header Links -->
+                <div class="head-links">
+                    <div>
+                        <a href="#">
+                            الرئيسية
+                        </a>
+                    </div>
+                    <div class="lightgrey-text">
+                        /
+                    </div>
+                    <div>
+                        <a  href="#">
+                            صحافة
+                        </a>
+                    </div>
+                    <div class="lightgrey-text">
+                        /
+                    </div>
+                    <div class="lightblue-text">
+                        رهبة: عندما يكون للتفاهة عنوان
+                    </div>
+                </div>
+                <div class="clearboth"></div>
+                <!-- end of Header Links -->
+            
+                <!-- start of Header -->
+                <div>
+                    <h1 class="header-style">
+                        رهبة: عندما يكون للتفاهة عنوان
+                    </h1>
+                </div>
+                <div class="sub-header-style">
+                    <ul>
+                        <li>
+                           نقد
+                        </li>
+                        <li>
+                            09:05 صباحًا - 7 يونيو 2023
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-image"></i>
+                            2 صورتين
+                        </li>
+                    </ul>
+                </div>
+                <!-- end of Header -->           
+                <!-- start of sub heading-->
+                <div>
+                    <hr>
+                        <div class="sub-text-style sub-floatright ">
+                            <div>
+                                كتبه        
+                            </div>
+                            <a class="lightblue-text sub-heading-link"href="#">
+                                دعاء أبو الضياء
+                            </a>
+                            <a class="lightgrey-text black-outline"href="#">
+                                <i class="fa-solid fa-bell"></i>
+                                تابع                
+                            </a>
+                            <div class="img-list">
+                                <ul class="subhead-size">
+                                    <li>
+                                        <img src="../Images/white-icon.png">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sub-floatleft">
+                            <div id="facebook-icon">
+                                 <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                       facebook
+                                 </a>
+                            </div>
+                            <div id="twitter-icon">
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    twitter
+                                </a>
+                            </div>
+                        </div>
+                        <div class="clearboth"></div>
+                    <hr>
+                </div>
+                <!-- end of sub heading-->
+            </header>
+            <!-- END OF HEADING -->
+            <!-- start of Section 1 -->
+            <section class="section-style">
+                <div class="width-section-style">
+                    <!-- start of Image -->
+                    <div>
+                        <img class="img-size" src="https://media0026.elcinema.com/uploads/_640x_82c38465182ed4193da1c31886247b46bfba329ac0dcfdee2b959c258c018a63.jpg">
+                    </div>
+                    <!-- end of Image -->
+                    <!-- Paragraph 1 -->
+                    <div class="text-paragraph text-paragraph-links">
+                        <!-- Part 1 -->
+                        <p>
+                            دةً ما أحاول أن يكون لدي موقف "عيش وخلي غيرك يعيش" ، فلا يُعيرني اهتمام أو أشعر بالقلق كثيرًا
+                            بشأن ما يفعله الآخرون، وخاصة في مشاهدة فيلم أو مسلسل أو أي عمل فني.
+                        </p>
+                        <!-- Part 2 -->
+                        <p>
+                            لكن، في بعض الأحيان، أتساءل عن القرارات التي يتخذها الناس في دفع أموال لتجربة جديدة في مشاهدة فيلم عربي، وخاصة الأفلام التي تشبه أفلام الفيديو أو أفلام الثمانينات والمقاولات، وحتى قبل أن أشاهد الفيلم، لم يكن لدي شعور جيد، كما هو متوقع عند اتخاذ قرار بمشاهدة فيلم عربي بالسينما، ولكن اختيار اسم
+                            <a href="#">رهبة</a>
+                            نوانا للفيلم؛ كان سببا في الحقيقة لتنفيذ هذه الكارثة، وهنا وبعد التخلي عن جميع المحاولات في الخروج من قاعة السينما، وإيقاف مشاهدة هذه المهذلة التي يُطلق عليها فيلم، قررت المكوث واستكمال ما سيضع أخر مسمار في نعش مشاهدة فيلم عربي مرة أخرى.
+                        </p>
+                    </div>
+                </div>
+                <!-- YOUTUBE VIDEO -->
+                <div>
+                    <iframe class="vid-size"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </div>              
+                <!-- Paragraph 1 -->
+                <div class="text-paragraph text-paragraph-links">
+                    <!-- Part 1 -->
+                    <p>
+                        مبدئيا قصة الفيلم تدعو للتأكيد على غياب الإلهام لشيء يجب أن يشبه كلمة قصة، وبالرغم من تأكدي لعدم رؤية أي إبداع، فلم أتوقع أن يصل لشيئًا كان من الممكن أن اسمعه لمراهق يقوله لصديقه في الشارع، وخاصة أن بوستر الفيلم يدعو لمشاهدة فيلم قام شخص بتصويره
+                        داخل غرفة بالمنزل، أو على سطح بيته وعرضه على اليوتيوب.
+                        فمن تأليف                 
+                        <a  href="#">محمد علام</a>
+                            (قدما سابقا نفس التهم بدًء من
+                        <a href="#">سعيد كلاكيت</a>
+                            ,وحتي
+                        <a href="#">رحلة يوسف</a>
+                            <strong>
+                                انصحه بالاكتفاء بالتمثيل)
+                            </strong>
+                            ، ومن إخراج
+                        <a  href="#">
+                            رضا عبدالرازق
+                        </a>
+                        في أول تجربة إخراجية له، وبطولة كلا من
+                        <a  href="#">
+                            أحمد الفيشاوي 
+                        </a>    
+                        في دور
+                        <strong>
+                            سيد رهبة
+                        </strong>
+                            ، ومحمد لطفي، و
+                        <a  href="#">
+                            ثراء جبيل
+                        </a>
+                        ,
+                        <a  href="#">
+                            نسرين أمين
+                        </a>
+                            ومحمود البزاوي، تدور أحداث الفيلم، حيث يعيش سيد رهبة في أحد الأحياء الشعبية، ويفرض قبضته وسيطرته على المنطقة مستغلًا ذكاؤه وشجاعته، ولكن حينما يتعرض إلى حادث غريب يفقده الذاكرة، سرعان ما تتغير أحواله تمامًا.
+                    </p>
+                    <!-- Part 2 -->
+                    <p>
+                        الحبكة نفسها عبارة عن جلباب مرقع، لا تحتوي على أي شيء ملهم، وبصرف النظر عن محاولات إضفاء جو من النكات، التي تبدو مناسبة على الأقل لبعض المشاهد، فهي مملة، وعار حقيقي، وبدت وكأنها تم لصق أكبر عدد منها على أمل أن يتم إنشاء نوع من المنطق لما يحدث، وبدون وجهة نظر خاصة به، أو مخطط لهيكل سردي أو شخصيات محددة، يفقد الفيلم زخمه بسرعة كبيرة، إذا كان هناك زخمة له في البداية، ويتسلل شبرًا شبرًا نحو نهايته.
+                    </p>
+                    <!-- Part 3 -->
+                    <p>
+                        كذلك لم يعرض أي من الممثلين أي موهبة محتملة لسوء الحظ، ويبدو أن هذا الملل امتد إلى بقية الممثلين، خاصة
+                        <a  href="#">
+                            محمود البزاوي
+                        </a>
+                        ,الذي كنت أتمنى الحصول معه على مزيد من الوقت أمام الشاشة، ولكن لسوء الحظ لم يُظهر موهبته الحقيقية حتى مرة واحدة خلف تعبيره الأبله. والممثل الوحيد الذي يبدو ممتعًا ولا يمثل بشكل سيئ هو
+                        <a  href="#">
+                         مصطفى غريب
+                        </a>
+                        ، الذي كان مقنعًا حقًا، وتذكرت مشاهده في مسلسل
+                        <a  href="#">
+                            الكبير أوي
+                        </a>
+                            بدور العتر، عدا ذلك الفيلم فاشل تماما ومضيعة للوقت
+                        </p>
+                    <!-- Part 4 -->
+                    <p> 
+                        <strong>
+                            في النهاية
+                        </strong>
+                        <br>
+                        أملي الصادق هو رفع دعوى قضائية ضد صناع العمل حتى يتوقفوا عن تقديم مثل هذه الأعمال التي إن صح إطلاق اسم لها فسيكون عنوان للتفاهة.
+                    </p>
+                    <hr>
+                <div>
+            </section>
+            <!-- end of Section 1 -->
+            <aside class="part-section-style">
+                <div class="width-section-style">
+                    <div>
+                        <h3 id="special-section-part-style">
+                            الأكثر مشاهدة
+                        </h3>
+                    </div>
+                    <!--================================================ start of Image 1 ========================================-->
+                    <div class="side-width">
+                        <div class="edit-special-photo">
+                            <a href="#">
+                                <img src="../Images/beside1.jpg">
+                            </a>
+                        </div>
+                        <div class="flex-img-card list-property">
+                            <div>
+                                <a href="#">
+                                    <img class="small-icon"src="../Images/white-icon.png">
+                                </a>
+                            </div>
+                            <div class="sub-img-section">
+                                <ul>
+                                    <li>
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        9
+                                        أيام
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="special-section-part-style">
+                            <a href="#">
+                                The Hangove يترشح ل 6 جوائز فى مسابقة ال'' ام
+                            </a>
+                            <br>
+                            <a href="#">
+                               ت...
+                            </a>
+                        </div>
+                    <!--================================================ end if Image 1 ========================================-->
+
+                    <!--================================================ start of Image 2 ========================================-->
+                        <div class="edit-special-photo">
+                            <a href="#">
+                                <img src="../Images/beside2.jpg">
+                            </a>
+                        </div>
+                        <div class="flex-img-card list-property">
+                            <div>
+                                <a href="#">
+                                    <img class="small-icon"src="../Images/white-icon.png">
+                                </a>
+                            </div>
+                            <div class="sub-img-section">
+                                <ul>
+                                    <li>
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        9
+                                        أيام
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="special-section-part-style">
+                            <a href="#">
+                                 هند صبرى تستقبل طفلتها الثانية ليلى
+                            </a>
+                        </div>
+                    </div>
+                    <!--================================================ end of Image 2 ========================================-->
+                </div>
+                <div class="clearboth"></div>
+            </aside>
+            <div class="section-bottom-gap"></div>
+            <!-- Images beside each other with links (PART1)-->
+            <section class="bg-lightgray-section1 text-paragraph-links">
+                    <div>
+                        <h3>
+                            وصلات
+                        </h3>
+                    </div>
+                    <div class="photo-size adjustment-card">
+                        <div>
+                            <a href="#">
+                                <img src="../Images/1.jpg">
+                                <span>
+                                    أحمد الفيشاوي
+                                </span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="../Images/2.jpg">
+                                <span>
+                                    نسرين أمين
+                                </span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="../Images/3.jpg">
+                                <span>
+                                    محمد علام
+                                </span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="../Images/4.jpg">
+                                <span>
+                                    رضا عبدالرازق
+                                </span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="../Images/5.jpg">
+                                <span>
+                                    رهبة
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+            </section>
+            
+            <!-- Images beside each other with links (PART2)-->
+            <section class="bg-lightgray-section2">
+                <div>
+                    <h3>
+                        أُضيف حديثًا
+                    </h3>
+                </div>
+                <!-- images -->
+                <div class="adv-size adv-margin">
+                    <div>
+                        <a href="#">
+                            <img src="../Images/news1.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="../Images/news2.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="../Images/news3.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="../Images/news4.jpg">
+                        </a>
+                    </div>
+                    <div class="clearboth"></div>
+                </div>
+                <!-- logo and date -->
+                <div class="img-link">
+                    <div class="flex-img-card">
+                        <a href="#">
+                            <img class="small-icon"src="../Images/white-icon.png">
+                        </a>
+                        <span class="dot-section">
+                            .
+                        </span>
+                        <span class="sub-img-section">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            18 يوم
+                        </span>
+                    </div>
+                    <div class="flex-img-card">
+                        <a href="#">
+                            <img class="small-icon"src="../Images/white-icon.png">
+                        </a>
+                        <span class="dot-section">
+                            .
+                        </span>
+                        <span class="sub-img-section">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            9
+                            أيام
+                        </span>
+                    </div>
+                    <div class="flex-img-card">
+                        <a href="#">
+                            <img class="small-icon"src="../Images/white-icon.png">
+                        </a>
+                        <span class="dot-section">
+                            .
+                        </span>
+                        <span class="sub-img-section">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            19 
+                            يوم
+                        </span>
+                    </div>
+                    <div class="flex-img-card">
+                        <a href="#">
+                            <img class="small-icon"src="../Images/white-icon.png">
+                        </a>
+                        <span class="dot-section">
+                            .
+                        </span>
+                        <span class="sub-img-section">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            9 
+                            أيام
+                        </span>
+                    </div>
+                </div>
+                <div class="adv-link link-style text-paragraph-links">
+                    <div>
+                        <a href="#">
+                            بيت الروبي... وسائل التواصل
+                            <br>
+                            الاجتماعي هي السلاح...
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            "Oppenheimer"... عن الرجل الذي
+                            <br>
+                            التكنولوجيا ا...
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            "بيت الروبي"... عن الهروب من واقع
+                            <br>
+                            التكنولوجيا ا...
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            Insidious 5 تكملة تنهي قصة عائلة
+                            <br>
+                            لامبرت
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <button id="green-button">
+                        <a href="#">
+                            المزيد
+                        </a>
+                    </button>
+                </div>
+            
+            </section>
+            <!-- space for advertisment -->
+            <section>
+                <div class="hr-blue">
+                    <hr>
+                </div>
+                <div class="section-bottom-gap"></div>
+                <div class="hr-blue">
+                    <hr>
+                </div>
+            </section>
+            <!-- start of comments area -->
+            <section>
+                <div>
+                    <div class="floatright">
+                        <h3>
+                            تعليقات
+                        </h3>
+                    </div>
+                    <div class="floatleft">
+                        <form action="" method="post">
+                            <textarea class="textArea-properties" rows="4" cols="100">
+
+                            </textarea>
+                        </form>
+                    </div>
+                    <div class="clearboth"></div>
+                </div>
+                    <div>
+                        <button id="blue-button">
+                            <a href="#">
+                            أرسل
+                            </a>
+                        </button>
+                    </div>
+                    <div class="clearboth"></div>
+                    <div class="hr-blue" id="hr-size">
+                        <hr>
+                    </div>
+                    <div class="clearboth"></div>
+            </section>
+            <!-- end of comments area -->
+            
+            <!-- start of footer -->
+            <footer class="footer-properties">
+                <div class="list-property">
+                    <!-- footer head -->
+                    <div class="flex-container footer-part1">
+                        <div class="flex-card1">
+                            <a href="#">
+                                <img src="../Images/IMAX.png">
+                            </a>
+                            <a href="#">
+                                <img src="../Images/POINT90CINEMAS.png">
+                            </a>
+                            <a href="#">
+                                <img src="../Images/PlazaCinemas.png">
+                            </a>
+                        </div>
+                        <div class="footer-part1-icon flex-card2">
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#">    
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#">    
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <hr class="hr-footer-bottom-space">
+                    </div>   
+                    <div>
+                        <hr>
+                    </div>   
+                    <!-- footer section -->
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    احجز تذكرتك
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    حصاد عام 2022
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    يعرض حاليًا
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    دليل القنوات
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    يعرض قريبًا
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    إيرادات السينما المصرية
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    فيديوهات
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <a  href="#">
+                                    رمضان والعيد والمواسم
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    رمضان 2023
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    مسلسلات رمضان 2023
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    أفلام عيد الفطر 2022
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    سينمات مصر
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    سينمات الإمارات
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                     سينمات الكويت
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    سينمات لبنان
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                     سينمات
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <a  href="#">
+                                    البحرين
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    سينمات قطر
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    سينمات السعودية
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    سينمات عمان
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    سينمات الأردن
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    سينمات العراق
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    الاتصال بنا
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    عن السينما.كوم
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    حقوق الطبع و النشر
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="#">
+                                    اﻷسئلة الشائعة
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <hr class="hr-footer-top-space">
+                    </div>   
+                    <!-- footer footer -->
+
+                    <div class="flex-container">
+                        <div class="">
+                            <img src="../Images/elcinema.png">
+                        </div>
+                        <div>
+                            <a href="#">
+                                حقوق الطبع محفوظة © 2023, شركة دملج (ش.م.م) ®
+                            </a>
+                        </div>
+                        <div>
+                            <div id="sentence-style">
+                                ملك وإدارة دملج ش.م.م:
+                            </div>
+                            <a href="#">
+                                <img src="../Images/DAMLAG.png">
+                            </a>
+                        </div>   
+                    </div>
+                </div>
+            </footer>
+            <!-- end of footer -->
+            <!--Large add area -->
+            <div class="large-bottom-gap"></div>
+        </div>
+        <script>
+            // when click on button open vertical navbar
+            const toggleBtn = document.getElementById('toggleBtn');
+            const navbar = document.getElementById('navbar');
+
+            toggleBtn.addEventListener('click', () => {
+            navbar.style.display = navbar.style.display === 'block' ? 'none' : 'block';
+            });
+
+            // when scroll another navbar stick on the main navbar
+            window.onscroll = function() {
+            myFunction();
+            };
+
+            var mainNavbar = document.getElementById("main-navbar");
+            var subNavbar = document.getElementById("sub-navbar");
+            var scrollOffset = 400; // Use the height of the main navbar
+
+            function myFunction() {
+            if (window.pageYOffset >= scrollOffset) {
+                subNavbar.classList.add("sub-navbar-sticky");
+            } 
+            else {
+                subNavbar.classList.remove("sub-navbar-sticky");
+            }
+            }
+        </script>
+    </body>
+</html>
